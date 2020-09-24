@@ -1,4 +1,4 @@
-/* General-----------*/ 
+/* General--#2e4053-----#d03b40-- :#d03b40--*/ 
 
 *{
     box-sizing: border-box; /*corregir la anchura total = width-------------*/
@@ -82,7 +82,7 @@ img{
 }
 .logo{
     margin:20px 0px 0px 15px;
-    width: 100%;
+    width: 60%;
     
 }
 
@@ -132,7 +132,7 @@ img{
 }
 
 .secundaria h1{
-    color:#d03b40;
+    color:#2e4053;
 }
 
 .principal h3{
@@ -146,7 +146,7 @@ img{
 }
 
 .secundaria h3{
-    color:#d03b40;
+    color:#2e4053;
     font-weight: 400;
 }
 
@@ -163,12 +163,12 @@ img{
         min-height: 270px;
     }
 .principal{
-    background-color: #d03b40;
+    background-color:   #2e4053 ;
     
 }
 
 .secundaria{
-        background-color: #ded6c0;
+        background-color: #f6f6f6;
     
        
     }
@@ -338,7 +338,7 @@ a{
 }
 a:hover{
     text-decoration: none;
-    color:#ce2828;
+    color: none;
     border-bottom: 4px solid;
 }
 a:active{
@@ -369,26 +369,30 @@ a:focus{
         top:75px;
         left: 15pX;
         right: 19px;
-        background-color: rgba(45, 33, 31, 0.80);
+        background-color: rgba(1, 12, 12, 0.80);
         z-index: 1;
         line-height: 2;
         text-align: left;
         padding:0px 0px 0px 20px;
         letter-spacing: 2pt;
+ 
     
  }
     .js .navegacion a{
         
         color: #FFF;
         border-top: 1px solid rgba(255, 255, 255, .4);
+        font-size: 14px;
     }
+    
+    
     
     .js .navegacion.menu-desplegado{
         max-height: 400px;
         transition: 0.2s background-color 0.2s;
     }
     .js .navegacion.menu-desplegado:hover{
-    background-color:#d03b40;
+    background-color:#2e4053;
 }
     
     .footer h2{
